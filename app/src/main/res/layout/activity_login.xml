@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16e9d0"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.bobi.chatcho.Login">
+
+    <LinearLayout
+        android:id="@+id/ly_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:hint="Usuario"
+            android:textColorHint="#b3000000" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_lock_closed"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColorHint="#b3000000" />
+        <RadioButton
+            android:id="@+id/rB_session"
+            android:hint="No cerrar sesión"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/b_login"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bordes_redondos"
+            android:backgroundTint="#fd0000"
+            android:drawableLeft="@drawable/ic_action_key"
+            android:hint="Entrar"
+            android:textColorHint="#000000"
+            android:textSize="21dp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:hint="No tengo cuenta"
+        android:background="@android:color/transparent"/>
+
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        app:srcCompat="@drawable/chatchoim" />
+
+</RelativeLayout>

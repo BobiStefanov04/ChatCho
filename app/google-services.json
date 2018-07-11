@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "800516549283",
+    "firebase_url": "https://chatcho-a0184.firebaseio.com",
+    "project_id": "chatcho-a0184",
+    "storage_bucket": "chatcho-a0184.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800516549283:android:232069d7bc3856e0",
+        "android_client_info": {
+          "package_name": "com.example.bobi.chatcho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800516549283-tamk0l5h96lu89gitgrrs4s4mh0vf5mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXPe0B7yBNlU6Zt2QMYZbPoIAY07dtuzI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
